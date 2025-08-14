@@ -12,6 +12,6 @@ Then type "python3 main.py".
 
 If you are not on a Mac, I don't know so sorry.
 
-Apologies for this convoluted mess and the terrible code.
+Apologies for this convoluted mess, the terrible interface, and the terrible code.
 
 I will fix it one day.
