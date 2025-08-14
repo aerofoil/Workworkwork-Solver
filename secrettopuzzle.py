@@ -32,6 +32,8 @@ def secrettopuzzle(terminalcode:str):
             piecerow += 1
             piececolumn = 0
         elif char == ">":
+            if piecedensity is not None:
+                currentgrid[(piecerow,piececolumn)] = (piecedensity,pieceorbdensity)
             if puzzle == {}:
                 puzzle = deepcopy(currentgrid)
             currentgrid = {}
