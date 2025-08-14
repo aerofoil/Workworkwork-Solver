@@ -45,7 +45,7 @@ def solver(puzzle:dict, puzzleoutput, output, outputposition, outputrotation, pi
             solver(puzzle, puzzleoutput, output, outputposition, outputrotation, pieceenterrotation, path, inpiece=False)
         else:
             if nextcellvalue == (0,1) and checkpiece(output,puzzleoutput) and checkpiece(puzzleoutput,output):
-                print(f'\033[0;33m{path}\033[0m')
+                print(f'\033[0;32m{path}\033[0m')
             if len(path) == 2:
                 outputrotation = direction
                 pieceenterrotation = rotations[direction]
