@@ -1,17 +1,103 @@
 # Workworkwork-Solver
 A tool to automatically solve workworkwork puzzles.
-Currently only works for levels using mechanics from chapters 1 to 4.
-
 # How to run it
+## On Mac
+First download and extract the .zip file, then run it through terminal.
+Open terminal and type: 
+```
+cd (the folder)
+```
+You should replace "(the folder)" with the folder you just obtained.
 
-To run it, first download and extract the .zip file, then run it through terminal.
+Then type:
+```
+python3 main.py
+```
+And that should work.
 
-If your are on a Mac, open terminal and type "cd (the folder)" replace "(the folder)" with the actual folder. 
-
-Then type "python3 main.py".
-
+If it doesn't, try downloading python3 from [python.org](https://www.python.org)
+## On Anything else
 If you are not on a Mac, I don't know so sorry.
+# How it works
 
-Apologies for this convoluted mess, the terrible interface, and the terrible code.
+## **This is _EXTREMELY_ important**
+A solution is represented as a list of cells which represents the order the cells were travelled through
 
-I will fix it sometime.
+The coordinates are represented like this:
+```
+(row,column)
+```
+
+When you try to solve a puzzle, it will give back multiple paths as answers.
+
+This is because the program currently considers paths to be directional.
+
+**So if it currently returns 2 paths, it has a unique solution.**
+
+Sorry if this confused anyone.
+
+When you first run the program it will ask you if you know some secrets about the game.
+
+This is to prevent spoilers
+### People who do not know about that secret
+If you don't know, then for now, you are just going to have to edit the code.
+
+Sorry.
+
+A puzzle and its output are represented by dictionaries which contain info about the cells.
+
+The info about a cell is represented like this:
+```
+{(row,column),(density,orbdensity)}
+```
+In solvepuzzle.py at the bottom, there is an example of a puzzle which is puzzle 8.
+### People who **DO** know the secret
+**Everything past this point contains spoilers**\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+The valid symbols for the terminal code are:\
+Seperator: "."\
+Blank Space: "-"\
+Wall: "_"\
+Block: "1"\
+Worker: "w" or "W"\
+End of Row: "/"\
+Output: ">"\
+Incinerator: "x" or "X"\
+Infinity Block: "i" or "I" or "∞"
+#### Notes:
+Currently, Higher density blocks can only be accessed by a string of ones.\
+Sorry.\
+Just in case, you input the output after the puzzle, so it would look like:
+```
+puzzle>output
+```
+
+
