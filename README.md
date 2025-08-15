@@ -4,7 +4,7 @@ A tool to automatically solve workworkwork puzzles.
 This code might be slow at times and be hard to read
 
 I might make it better at some point
-# How to run it
+# How to run it through terminal
 ## On Mac
 First download and extract the .zip file, then run it through terminal.
 Open terminal and type: 
