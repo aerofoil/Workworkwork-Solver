@@ -94,7 +94,7 @@ Block: "1"\
 Worker: "w" or "W"\
 End of Row: "/"\
 Output: ">"\
-~Incinerator: "x" or "X"~\
+Incinerator: "x" or "X"\
 Infinity Block: "i" or "I" or "∞"
 #### Notes:
 Currently, Higher density blocks can only be accessed by a string of ones.\
